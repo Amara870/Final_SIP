@@ -116,7 +116,8 @@
 
             <section class="form-container">
                 <h3>Found A Mural You Love?</h3>
-                <form name="contact-request" id="form-input">
+                <form action="https://api.web3forms.com/submit" name="contact-request" method="POST" id="form-input">
+                    <input type="hidden" name="access_key" value="337f8a5b-1243-44ec-9aea-3a19c3c6ab5c">
                     <div class="form-group">
                         <label for="txtName/Company">Name/Company</label>
                         <input type="text" id="txtName/Company" name="lblName/Company" placeholder="Amara Jane">
